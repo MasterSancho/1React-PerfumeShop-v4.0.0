@@ -4,6 +4,9 @@
  "description": "MERN Ecommerce platform",
  "main": "server.js",
  "type": "module",
+ "engines": {
+  "node": "18.12.1"
+ },
  "scripts": {
   "start": "node server/server",
   "build": "cd client && npm install && npm run build",
